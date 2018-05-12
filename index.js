@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Docker = require('dockerode');
 const docker = new Docker();
 const stripAnsi = require('strip-ansi');
